@@ -1,0 +1,11 @@
+name: angular2_js_interop
+version: 0.0.1
+description: >
+  Testing angular2 with JS interop lib
+dependencies:
+  angular2: any
+  browser: ^0.10.0
+  js: any
+transformers:
+- angular2:
+    entry_points: web/main.dart
